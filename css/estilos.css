@@ -1,0 +1,520 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; 
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}*/
+
+body{
+  background-color: #fff; 
+	font-size:14px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.auxuliar{
+  padding-top: 65px;
+}
+
+.promo img{
+  margin: 0 auto;
+  border: 3px solid #602a74;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.linkfoot{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.linkfoot:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+header{
+  padding-bottom:65px;
+}
+
+.navbar-default{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: rgba(96, 42, 116, 0.8);
+  border-color: rgb(145, 101, 166);
+  font-size: 1.2em;
+  font-family: arial;
+  font-weight: bold;
+}
+
+#menuselected{
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+  0 0 20px #f56c08,
+  0 0 30px #f56c08,
+  0 0 40px #f56c08;
+}
+
+.navbar-default ul li a{
+  color: #fff !important;
+  transition: text-shadow 0.3s linear 0.2s;
+}
+
+.navbar-default ul li a:hover{
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+  0 0 20px #f56c08,
+  0 0 30px #f56c08,
+  0 0 40px #f56c08;
+}
+
+.navimagen{
+  margin-left: 5px;
+  width: 50px;
+}
+
+footer{
+  border-top: 8px solid #602a74;
+  font-family: 'Poppins', sans-serif; 
+  text-align:center;
+  background-color:#424242;
+  color:#fff;
+  font-size: 1.1em;
+  clear:both;
+  padding: 5px 5px 0px 5px;
+  margin-top: 0;
+  /*-webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -o-border-radius:15px;
+  border-radius: 15px;*/
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+/*SLIDER - MODIFICACIONES*/
+
+.slider{
+  display: block;
+  margin: 0 auto;
+  border-bottom: 8px solid #602a74; 
+}
+
+.carousel-caption h3{
+  font-weight: bold;
+  font-size:1em;
+  /*text-shadow: 2px -2px 1px #000;*/
+  text-shadow: -5px -5px 5px #000, 5px -5px 5px #000, -5px 5px 5px #000, 5px 5px 5px #000;
+}
+
+.carousel-caption p{
+  font-size: 1.5em;
+  /*text-shadow: 2px -2px 1px #000;*/
+  text-shadow: -5px -5px 5px #000, 5px -5px 5px #000, -5px 5px 5px #000, 5px 5px 5px #000;
+}
+
+.item.next .carousel-caption {
+    opacity: 0;
+}
+
+.carousel-caption {
+  transition: opacity .40s ease-in-out;
+  -moz-transition: opacity .40s ease-in-out;
+  -webkit-transition: opacity .40s ease-in-out;
+}
+
+.slider2{
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:850px ) {
+
+.carousel-caption h3{
+  font-size: 1em;
+  text-shadow: -5px -5px 5px #000, 5px -5px 5px #000, -5px 5px 5px #000, 5px 5px 5px #000;
+}
+
+.carousel-caption p{
+  font-size: 0.55em;
+  text-shadow: -5px -5px 5px #000, 5px -5px 5px #000, -5px 5px 5px #000, 5px 5px 5px #000;
+}
+
+.social{
+  display: none;
+}
+
+#volverarriba{
+  bottom: 1px;
+  right: 1px;
+}
+
+#volverarriba img{
+  width: 40px;
+  height: 40px;
+  opacity: 0.6;
+}
+
+}
+
+/*FINAL DEL SLIDER*/
+
+ /*modificaciones esteticas de videos de youtube*/
+
+.contenedor-video{
+  width:100%;
+  position:relative;/*para poder habilitar que pise otras cosas*/
+  padding-bottom:56.25%;
+  padding-top:25px;
+  overflow:hidden;/*para elminar las barras de scroll*/
+  border: 2px solid grey;
+}*/
+
+/*video{
+  width:100%;
+  height:auto;
+}*/
+
+iframe{
+  padding-top: 10px;
+}
+
+.videos{
+  float: left;
+  width: 33%;
+  height:100%;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.h3video{
+  text-align: center;
+  padding: 2% 0;
+  color: #fff;
+}
+  
+ /*final del video*/
+
+
+.sucursales{
+  color: white;
+  background-color: #f56c08;
+  padding-bottom: 30px;  
+}
+
+.sucursales h1{
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.sucursales h3{
+  font-weight: bold;
+}
+
+
+.linkdesucursal img{
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 3px solid #602a74;
+
+  filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition:filter 0.5s;
+  -moz-transition:-moz-filter 0.5s;
+  -o-transition:-o-filter 0.5s;
+  -ms-transition:-ms-filter 0.5s;
+  -webkit-transition:-webkit-filter 0.5s;
+}
+
+.linkdesucursal:hover img{
+
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.linkdesucursal h3{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  transition:text-shadow 0.5s;
+  -moz-text-shadow:-moz-filter 0.5s;
+  -o-text-shadow:-o-filter 0.5s;
+  -ms-text-shadow:-ms-filter 0.5s;
+  -webkit-text-shadow:-webkit-filter 0.5s;
+}
+
+.linkdesucursal:hover h3{
+  text-shadow: 2px 2px 2px #000;
+  color: white;
+}
+
+.linkdesucursal:hover a{
+  text-decoration: none;
+}
+
+@media screen and (max-width:850px ) {
+  .linkdesucursal{
+  color: white;
+  text-decoration: none;
+  padding: 0px 0px;
+  text-align: center;
+}
+
+.linkdesucursal:hover{
+ color: white;
+ text-decoration: none; 
+}
+}
+
+.panel-title{
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+  color: #602a74;
+}
+
+.panel{
+  margin-top: 10px;
+}
+
+
+
+hr {width: 80%;}
+
+.obrassociales{
+  padding-top: 20px;
+  background-color: #f56c08;
+  color: white;
+}
+
+.obrassociales h1{
+  font-weight: bold;
+}
+
+.obrassociales p{
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
+/*imagenes de las obras sociales*/
+
+.obrasocial{
+  padding: 40px 0;
+}
+
+.obrasocial img {
+  margin: 0 auto;
+  border: 3px solid #602a74;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.obrasocial:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.servicios{
+  background-color: #f56c08;
+  color: white;
+  text-align: justify;
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+ .servicios img{
+  border: 3px solid #602a74;
+  margin: 0 auto;
+ }
+
+ .servicios p{
+  padding-top: 10px;
+ }
+/*imagenes de las obras sociales cierre*/
+
+label{
+  font-size: 1.1em;
+}
+
+.contacto{
+  background-color: #f56c08;
+  padding-top: 20px;
+}
+
+.contacto h2{
+  font-weight: bold;
+  color: black;
+  font-size: 2.5em;
+}
+
+.contacto .pform{
+  color: black;
+  font-size: 1.5em;
+  padding-bottom: 25px;
+}
+
+.contacto h3{
+  font-size: 2em;
+  color: white;
+  text-align: center;
+
+}
+
+.contacto p{
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+}
+
+.contacto a{
+  color: white;
+}
+
+.contacto:hover a{
+  text-decoration: underline;
+}
+
+.mapa iframe{
+  margin: 0 auto;
+}
+
+#boton{
+  background-color: #602a74;
+  border: 1px solid #602a74;
+}
+
+#boton:hover{
+  background-color: #A746CB;
+}
+
+#botonsub{
+  background-color: #A746CB;
+  border: 1px solid #A746CB;
+}
+
+#botonsub:hover{
+  background-color: #B890C6;
+}
+
+.botonera{
+  padding-top: 5px;
+}
+ 
+.hr2{
+  width: 60%;
+  text-align: center;
+}
+
+.volver-arriba{
+  background-color: #171717;
+  padding-top: 10px;
+}
+
+.volver-arriba a{
+  text-decoration: none;
+  color: grey;
+  font-size: 1.5em;
+
+}
+
+.volver-arriba2{
+  text-align: right;
+  background-color: #f56c08;
+  padding-top: 10px;
+}
+
+.volver-arriba2 a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+
+}
+
+.fondoblanco{
+  background-color:rgba(255, 255, 255, 0.5); 
+  color: black;
+}
+
+.catalogo ul{
+  list-style: none;
+}
+
+.catalogo ul li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.catalogo ul li a:hover{
+  text-decoration: underline;
+}
+
+#catalogoselec {
+  font-size: 1.7em;
+}
+
+.breadcrumb a{
+  color:black !important;
+}
+
+.breadcrumb a:hover{
+  color:grey !important;
+}
+
+.productos p{
+  text-align: left;
+}
+ /*Cargador de cada pagina*/
+
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: #602a74;
+    z-index: 2000;
+}
+#loader {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:50%; top:50%;
+    background: url(../img/loader.gif) no-repeat center 0;
+    margin:-50px 0 0 -50px;
+}
+
+/* fin del cargador*/
+
+
+
+
+
+
+
+
+

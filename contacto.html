@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ópticas Altavista</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet"> 
+	<link rel="icon" type="image/png" href="img/favicon.png" >
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+</head>
+
+<body>
+
+	<div id="preloader">
+    	<div id="loader">&nbsp;</div>
+	</div>
+
+	<a href="#" id="arriba"></a>
+
+	<div class="container-fluid">
+
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="navbarcolor">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+							<span class="sr-only">MENÚ</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<a href="index.html" class="navbar-header"><img src="img/logo.png" class="navimagen"></a>
+
+					</div>
+
+						<div class="collapse navbar-collapse" id="navbar-1">
+							<ul class="nav navbar-nav navbar-right text-lg">
+						        <li><a href="index.html" >HOME</a></li>
+						        <li><a href="servicios.html">SERVICIOS</a></li>
+						        <li><a href="productos.html">PRODUCTOS</a></li>
+						        <li><a href="alteraciones.html">ALTERACIONES VISUALES</a></li>
+						        <li><a href="obrassociales.html" >OBRAS SOCIALES</a></li>
+						        <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
+						        <li><a href="turnos.html">TURNOS</a></li>
+						        <li><a href="contacto.html" id="menuselected">CONTACTO</a></li>
+      						</ul>
+						</div> 	
+				</div>
+			</nav>
+		</header>
+
+	</div>
+
+	<div class="container-fluid">
+		<section>
+
+			<div class="row contacto">
+				<div class="col-md-offset-3 col-md-6 col-md-offset-3 col-xs-offset-1 col-xs-10 col-xs-offset-1 jumbotron">
+
+					<h2>CONTACTO</h2>
+					<p class="text-center pform"> Envianos tu consulta a través de este formulario de contacto, y te responderemos a la brevedad.</p>
+					<form class="form-horizontal" method="POST" action="formulario.php">
+
+						<div class="form-group">
+					      	<label class="control-label col-md-4" for="nombre">Nombre:</label>
+					      	<div class="col-md-8">
+					        	<input class="form-control" type="text" id="nombre" name="nombre" required/>
+					    	</div>
+				        </div>
+
+						<div class="form-group">
+					      	<label class="control-label col-md-4" for="apellido">Apellido:</label>
+					      	<div class="col-md-8">
+					        	<input class="form-control" type="text" id="apellido" name="apellido" required/>
+					        </div>
+				        </div>
+
+						<div class="form-group">
+					      	<label class="control-label col-md-4" for="email">Dirección de e-mail:</label>
+					      	<div class="col-md-8">
+					        	<input class="form-control" type="email" id="email" name="email" required/>
+					        </div>
+				        </div>
+
+						<div class="form-group">
+					        <label class="control-label col-md-4" for="tel">Numero de telefono:</label>
+					        <div class="col-md-8">
+					        	<input class="form-control" type="text" id="tel" name="tel" required/>
+					        </div>
+				        </div>
+
+				 		<div class="form-group">
+					        <label class="control-label col-md-4" for="mensaje">Mensaje:</label>
+					        <div class="col-md-8">
+					        	<textarea class="form-control" id="mensaje" name="mensaje" required/></textarea>
+					        </div>
+				        </div>
+
+				        <div class="form-group">
+				        	<div class="col-md-4 col-md-offset-4">
+				   				<input class="btn btn-warning" type="submit" value="Enviar" name="boton" id="boton">
+				   			</div>
+				        </div>
+
+			        </br> 
+			      
+			    	</form>
+				</div>
+			</div>
+
+			<div class="col-xs-12"><hr></div>
+
+			<div class="row sucursales">
+				<h1 class="text-center titulo" id="suc1">NUESTRAS SUCURSALES</h1>
+			</div>
+			
+			<div ></div>
+			<div class="row contacto">
+				<div class="col-md-offset-2 col-md-4">
+					<h3><span class="glyphicon glyphicon-map-marker"></span>B° General Paz</h3>
+					<p>Dirección: Oncativo 1311</p>
+					<p>Telefono: (0351) 4510663</p>
+					<p>Horarios: Lunes a Viernes 9 a 13hs y 16 a 20hs | Sábados 9.30 a 13hs</p>
+				</div>
+				<div class="col-md-6 mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.17065962047!2d-64.16956218514957!3d-31.409423803057514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a090b2ab0d%3A0x9d527ecee30b383d!2s%C3%93ptica+Alta+Vista!5e0!3m2!1ses-419!2sar!4v1494559171224" width="320" height="300" frameborder="0" style="3px solid #602a74" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col-xs-offset-1 col-xs-10 col-xs-offset-1" id="suc2"><hr></div>
+
+			<div ></div>
+			<div class="row contacto">
+				<div class="col-md-offset-2 col-md-4">
+					<h3><span class="glyphicon glyphicon-map-marker"></span>B° San Vicente</h3>
+					<p>Dirección: San Jerónimo 2932</p>
+					<p>Telefono: (0351) 4589048</p>
+					<p>Horarios: Lunes a Viernes 8.30 a 20.30hs | Sábados 9 a 13hs y 17 a 20hs</p>
+				</div>
+				<div class="col-md-6 mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9629.90571965108!2d-64.1509519602021!3d-31.422781251688306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432bd4add502231%3A0x7e052a2e48683e5e!2sAlta+Vista+Servicios+Opticos!5e0!3m2!1ses-419!2sar!4v1494558636142" width="320" height="300" frameborder="0" style="3px solid #602a74" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col-xs-offset-1 col-xs-10 col-xs-offset-1" id="suc3"><hr></div>
+
+			<div ></div>
+			<div class="row contacto">
+				<div class="col-md-offset-2 col-md-4">
+					<h3><span class="glyphicon glyphicon-map-marker"></span>B° Villa Cabrera</h3>
+					<p>Dirección: Av. Caraffa 2541</p>
+					<p>Telefono: (0351) 4882992</p>
+					<p>Horarios: Lunes a Viernes 9 a 13hs y 16.30 a 20.30hs | Sábados 10 a 13hs</p>
+				</div>
+				<div class="col-md-6 mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.9597477002962!2d-64.21558218515028!3d-31.38767340200382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298e8b13a8a83%3A0xc524a1d8c60e1727!2sOptica+Alta+Vista!5e0!3m2!1ses-419!2sar!4v1494558910538" width="320" height="300" frameborder="0" style="3px solid #602a74" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col-xs-offset-1 col-xs-10 col-xs-offset-1" id="suc4"><hr></div>
+
+			<div ></div>
+			<div class="row contacto">
+				<div class="col-md-offset-2 col-md-4">
+					<h3><span class="glyphicon glyphicon-map-marker"></span>Argüello</h3>
+					<p>Dirección: Donato Álvarez 8714 Loc. 2</p>
+					<p>Telefono: (03543) 441811</p>
+					<p>Horarios: Lunes a Viernes 9 a 13hs y 17 a 21hs | Sábados 9 a 13hs</p>
+				</div>
+				<div class="col-md-6 mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3408.32177866364!2d-64.27206368515235!3d-31.322485398849803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329c40ee1b9b79%3A0x591dcaa99567fe9c!2sPacheco+Pascual+Centro+Optico!5e0!3m2!1ses-419!2sar!4v1495169892890" width="320" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col-xs-offset-1 col-xs-10 col-xs-offset-1"><hr></div>
+
+			<div class="row contacto">
+				<div class="col-xs-12">
+					<p>También podes mandarnos un mail  a nuestra dirección de correo electrónico.</p>
+					<p><a href="mailto:info@opticasaltavista.com.ar">info@opticasaltavista.com.ar</a></p>
+				</div>
+			</div>
+
+
+			
+		</section>
+	</div>
+
+	<div class="">
+		<footer>
+
+				<div class="row">
+					<div class="col-md-12">
+						<p>Ópticas Alta Vista - Pacheco Pascual - 2018 - Web Master: <a class="linkfoot"href="http://mairacachavilano.000webhostapp.com/" target="_blank">Maira Florencia Cachavilano</a></p>
+					</div>	
+				</div>
+
+			<div class="irarriba"></div>
+
+			<div class="row volver-arriba">
+				<a href="#arriba" class="text-center"><span class="glyphicon glyphicon-chevron-up"></span></a>
+			</div>
+
+		</footer>
+	</div>	
+
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script>
+		window.sr = ScrollReveal({ reset: true, mobile: true});
+		sr.reveal('.obra', { useDelay: 'always' });
+		sr.reveal('.titulo', { useDelay: 'always', origin: 'top' });
+		
+	</script>
+
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+  	<script> <!-- este script hace que la pantalla se deslice lentamente hacia arriba y hacia abajo -->
+		jQuery(document).ready(function(){
+		    $('h2').append('<a href="#top" class="gototop"></a>');
+		    linkInterno = $('a[href^="#"]');
+		    linkInterno.on('click',function(e) {
+		    e.preventDefault();
+		    var href = $(this).attr('href');
+		    $('html, body').animate({ scrollTop : $( href ).offset().top }, 'slow');
+		    });
+		});
+	</script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+		$('#preloader').fadeOut('slow');
+		$('body').css({'overflow':'visible'});
+	})
+	</script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-87797371-3', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+</body>
+</html>
